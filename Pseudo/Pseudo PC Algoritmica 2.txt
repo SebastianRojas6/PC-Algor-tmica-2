@@ -445,3 +445,52 @@ fMetodo
 
 Metodo Opinion.mostrarOpinion()->
     mensaje -> nombre + fecha + calificacion + comentario
+fMetodo
+
+Clase Promocion
+    Atributos
+        funcion
+        tunica
+        descripcion
+        descuento
+    Metodos
+        constructor(nFuncion, bTunica, sDescripcion, sDescuento)
+        obtenerFuncion()->
+        colocarFuncion(oFuncion)
+        obtenerTunica()->
+        colocarTunica(bTunica)
+        obtenerDescripcion()->
+        colocarDescripcion(sDescripcion)
+        obtenerDescuento()->
+        colocarDescuento(sDescuento)
+fClase
+
+Metodo Promocion.obtenerFuncion()->
+    retornar funcion
+fMetodo
+
+Metodo Promocion.colocarFuncion(oFuncion)->
+    funcion -> oFuncion
+fMetodo
+
+Metodo Promocion.obtenerTunica()->
+    retornar tunica
+fMetodo
+
+Metodo Promocion.colocarTunica(bTunica)
+    tunica -> bTunica
+fMetodo
+
+Metodo Promocion.obtenerDescripcion()->
+    retornar descripcion
+fMetodo
+Metodo Promocion.colocarDescripcion (sDescripcion)
+    descripcion -> sDescripcion
+fMetodo
+Metodo Promocion.obtenerDescuento()->
+    retornar descuento
+fMetodo
+
+Metodo colocarDescuento(sDescuento)
+    descuento -> sDescuento
+fMetodo
