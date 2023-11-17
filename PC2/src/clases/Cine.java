@@ -1,6 +1,6 @@
 package clases;
 
-public class Cine{
+public class Cine {
 
     private String nombre;
     private String direccion;
@@ -28,4 +28,13 @@ public class Cine{
         System.out.println("Telefono: " + telefono);
     }
 
+    @Override
+    public String toString() {
+        return "Cine{" +
+                "nombre='" + nombre + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", cartelera='" + cartelera + '\'' +
+                '}';
+    }
 }
