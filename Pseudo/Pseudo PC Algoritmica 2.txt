@@ -27,7 +27,53 @@ Clase Cineasta
         peliculasDirigidas
         peliculasActuadas
     Metodos 
-        constructor()
         constructor(sNombre, sNacionalidad, lPeliculasDirigidas, lPeliculasActuadas)
-        obtener
+        obtenerNombre()->
+        obtenerNacionalidad()->
+        obtenerPeliculasDirigidas()->
+        obtenerPeliculasObservadas()->
+        colocarNombre(sNombre)
+        colocarNacionalidad(sNacionalidad)
+        colocarPeliculasDirigidas(oPelicula)
+        colocarPeliculasActuadas(oPelicula)
+fClase
+
+Metodo Cineasta.constructor(sNombre, sNacionalidad, lPeliculasDirigidas, lPeliculasActuadas)
+    nombre -> sNombre
+    nacionalidad -> sNacionalidad
+    peliculasDirigidas -> nulo
+    peliculasActuadas -> nulo
+fMetodo
+
+Metodo Cineasta.obtenerNombre()->
+    retornar nombre
+fMetodo
+
+Metodo Cineasta.obtenerNacionalidad()->
+    retornar nacionalidad
+fMetodo
+
+Metodo Cineasta.obtenerPeliculasDirigidas()->
+    retornar peliculasDirigidas
+fMetodo
+
+Metodo Cineasta.obtenerPeliculasActuadas()->
+    retornar peliculasActuadas
+fMetodo
+
+Metodo Cineasta.colocarNombre(sNombre)
+    nombre -> sNombre
+fMetodo
+
+Metodo Cineasta.colocarNacionalidad(sNacionalidad)
+    nacionalidad -> sNacionalidad
+fMetodo
+
+Metodo Cineasta.colocarPeliculasActuadas(oPelicula)
+    
+fMetodo
+
+Metodo Cineasta.colocarPeliculasDirigidas(oPelicula)
+
+fMetodo
 
