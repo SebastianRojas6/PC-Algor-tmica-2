@@ -17,8 +17,34 @@ Clase Pelicula
     Metodos
         constructor(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion, sResumen)
         constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen)
-        obtenerId()
+        obtenerId()->
         colocarId(nId)
+        obtenerTituloDistribucion() ->
+        colocarTituloDistribucion(sTituloDistribucion)
+        obtenerTituloOriginal()->
+        colocarTituloOriginal(sTituloOriginal)
+        obtenerGenero()->
+        colocarGenero(sGenero)
+        Pelicula.obtenreIdioma()->
+        colocarIdioma(sIdioma)
+        obtenerSubtitulo()->
+        colocarSubtitulo(bSubt)
+        obtenerAñoProduccion()->
+        colocarAñoProduccion(nAñoProduccion)
+        obtenerURL()->
+        colocarURL(sURL)
+        obtenerDuracion()->
+        colocarDuracion(nDuracion)
+        obtenerCalificacion()->
+        colocarCalificacion(nCalificacion)
+        obtenerFechaEstreno()->
+        colocarFechaEstreno(sFechaEstreno)
+        obtenerResumen()->
+        colocarResumen(sResumen)
+        obtenerReparto()->
+        colocarReparto(oCineasta)
+        obtenerDirector()->
+        colocarDirectores(oCineasta)      
 fClase
 
 Metodo Pelicula.constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen, lDirectores, lReparto)
