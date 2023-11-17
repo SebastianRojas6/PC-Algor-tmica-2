@@ -17,8 +17,34 @@ Clase Pelicula
     Metodos
         constructor(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion, sResumen)
         constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen)
-        obtenerId()
+        obtenerId()->
         colocarId(nId)
+        obtenerTituloDistribucion() ->
+        colocarTituloDistribucion(sTituloDistribucion)
+        obtenerTituloOriginal()->
+        colocarTituloOriginal(sTituloOriginal)
+        obtenerGenero()->
+        colocarGenero(sGenero)
+        Pelicula.obtenreIdioma()->
+        colocarIdioma(sIdioma)
+        obtenerSubtitulo()->
+        colocarSubtitulo(bSubt)
+        obtenerAñoProduccion()->
+        colocarAñoProduccion(nAñoProduccion)
+        obtenerURL()->
+        colocarURL(sURL)
+        obtenerDuracion()->
+        colocarDuracion(nDuracion)
+        obtenerCalificacion()->
+        colocarCalificacion(nCalificacion)
+        obtenerFechaEstreno()->
+        colocarFechaEstreno(sFechaEstreno)
+        obtenerResumen()->
+        colocarResumen(sResumen)
+        obtenerReparto()->
+        colocarReparto(oCineasta)
+        obtenerDirector()->
+        colocarDirectores(oCineasta)      
 fClase
 
 Metodo Pelicula.constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen, lDirectores, lReparto)
@@ -346,3 +372,76 @@ fMetodo
 Metodo Sala.colocarButacas(nButacas)
     butacas -> nButacas
 fMetodo
+
+Clase Opinion
+    Atributos
+        nombre
+        edad
+        fecha
+        calificacion
+        comentario
+    Metodos
+        constructor(sNombre, nEdad, sFecha, nCalificacion, sComentario)
+        obtenerNombre()->
+        colocarNombre(sNombre)
+        obtenerEdad()->
+        colocarEdad(nEdad)
+        obtenerFecha()->
+        colocarFecha(sFecha)
+        obtenerCalificacion()->
+        colocarCalificacion(nCalificacion)
+        obtenerComentario()->
+        colocarComentario(sComentario)
+        mostrarOpinion()
+fClase
+
+Metodo Opinion.constructor(sNombre, nEdad, sFecha, nCalificacion, sComentario)
+    nombre -> sNombre
+    edad -> nEdad
+    fecha -> sFecha
+    calificacion -> nCalificacion
+    comentario -> sComentario
+fMetodo
+
+Metodo Opinion.obtenerNombre()->
+    retornar nombre
+fMetodo
+
+Metodo Opinion.colocarNombre(sNombre)
+    nombre -> sNombre
+fMetodo
+
+Metodo Opinion.obtenerEdad()->
+    retornar edad
+fMetodo
+
+Metodo Opinion.colocarEdad(nEdad)
+    edad -> nEdad
+fMetodo
+
+Metodo Opinion.obtenerFecha()->
+    retornar fecha
+fMetodo
+
+Metodo Opinion.colocarFecha(sFecha)
+    fecha -> sFecha
+fMetodo
+
+Metodo Opinion.obtenerCalificacion()->
+    retornar calificacion
+fMetodo
+
+Metodo Opinion.colocarCalificacion(nCalificacion)
+    calificacion -> nCalificacion
+fMetodo
+
+Metodo Opinion.obtenerComentario()->
+    retornar comentario
+fMetodo
+
+Metodo Opinion.colocarComentario(sComentario)
+    comentario -> sComentario
+fMetodo
+
+Metodo Opinion.mostrarOpinion()->
+    mensaje -> nombre + fecha + calificacion + comentario
