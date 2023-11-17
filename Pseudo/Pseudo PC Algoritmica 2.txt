@@ -317,7 +317,7 @@ Clase Sala
         colocarButacas(nButacas)
 fClase
 
-Metodo Sala.constructor(sNombre, nNumero, nButacas)
+Metodo Sala.constructor(sNomFbre, nNumero, nButacas)
     nombre -> sNombre
     numero -> nNumero
     butacas -> nButacas

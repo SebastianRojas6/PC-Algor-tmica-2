@@ -1,5 +1,7 @@
 package clases;
 
+import java.util.Arrays;
+
 public class Pelicula {
 
     private String nombre;
@@ -166,5 +168,27 @@ public class Pelicula {
 
     public void setReparto(String[] reparto) {
         this.reparto = reparto;
+    }
+
+    @Override
+    public String toString() {
+        return "Pelicula{" +
+                "nombre='" + nombre + '\'' +
+                ", genero='" + genero + '\'' +
+                ", idioma='" + idioma + '\'' +
+                ", tituloDistribucion='" + tituloDistribucion + '\'' +
+                ", tituloOriginal='" + tituloOriginal + '\'' +
+                ", URL='" + URL + '\'' +
+                ", id='" + id + '\'' +
+                ", calificacion='" + calificacion + '\'' +
+                ", subtitulos=" + subtitulos +
+                ", añodeproduccion=" + añodeproduccion +
+                ", fEstreno='" + fEstreno + '\'' +
+                ", resumen='" + resumen + '\'' +
+                ", duracion=" + duracion +
+                ", directores=" + Arrays.toString(directores) +
+                ", actores=" + Arrays.toString(actores) +
+                ", reparto=" + Arrays.toString(reparto) +
+                '}';
     }
 }
