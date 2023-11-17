@@ -301,3 +301,48 @@ Metodo Funcion.colocarPelicula(nId, sTituloDistribucion, sIdioma, bSubt, sURL, n
     temp.colocarCalificacion(nCalificacion)
     temp.colocarResumen(sResumen)
 fMetodo
+
+Clase Sala
+    Atributos
+        nombre
+        numero
+        butacas 
+    Metodos
+        constructor(sNombre, nNumero, nButacas)
+        obtenerNombre()->
+        colocarNombre(sNombre)
+        obtenerNumero()->
+        colocarNumero(nNumero)
+        obtenerButacas()->
+        colocarButacas(nButacas)
+fClase
+
+Metodo Sala.constructor(sNombre, nNumero, nButacas)
+    nombre -> sNombre
+    numero -> nNumero
+    butacas -> nButacas
+fMetodo
+
+Metodo Sala.obtenerNombre()->
+    retornar nombre
+fMetodo
+
+Metodo Sala.colocarNombre(sNombre)
+    nombre -> sNombre
+fMetodo
+
+Metodo Sala.obtenerNumero()->
+    retornar numero
+fMetodo
+
+Metodo Sala.colocarNumero(nNumero)
+    numero -> nNumero
+fMetodo
+
+Metodo Sala.obtenerButacas()->
+    retornar butacas
+fMetodo
+
+Metodo Sala.colocarButacas(nButacas)
+    butacas -> nButacas
+fMetodo
