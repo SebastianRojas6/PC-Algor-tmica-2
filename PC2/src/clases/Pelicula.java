@@ -5,28 +5,28 @@ public class Pelicula {
     private String nombre;
     private String genero;
     private String idioma;
-    private String TituloDistribucion;
-    private String TituloOriginal;
+    private String tituloDistribucion;
+    private String tituloOriginal;
     private String URL;
     private String id;
     private String calificacion;
     private Boolean subtitulos;
-    private String añodeproduccion;
+    private int añodeproduccion;
     private String fEstreno;
     private String resumen;
     private int duracion;
-    private int[] Directores;
-    private int[] Actores;
+    private String[] directores;
+    private String[] actores;
+    private String[] reparto;
 
     public Pelicula(String nombre, String genero, String idioma, String tituloDistribucion, String tituloOriginal,
-            String uRL, String id, String calificacion, Boolean subtitulos, String añodeproduccion, String fEstreno,
-            String resumen, int duracion, int[] directores, int[] actores) {
-
+            String uRL, String id, String calificacion, Boolean subtitulos, int añodeproduccion, String fEstreno,
+            String resumen, int duracion, String[] directores, String[] actores, String[] reparto) {
         this.nombre = nombre;
         this.genero = genero;
         this.idioma = idioma;
-        TituloDistribucion = tituloDistribucion;
-        TituloOriginal = tituloOriginal;
+        this.tituloDistribucion = tituloDistribucion;
+        this.tituloOriginal = tituloOriginal;
         URL = uRL;
         this.id = id;
         this.calificacion = calificacion;
@@ -35,8 +35,9 @@ public class Pelicula {
         this.fEstreno = fEstreno;
         this.resumen = resumen;
         this.duracion = duracion;
-        Directores = directores;
-        Actores = actores;
+        this.directores = null;
+        this.actores = actores;
+        this.reparto = null;
     }
 
     public String getNombre() {
@@ -64,19 +65,19 @@ public class Pelicula {
     }
 
     public String getTituloDistribucion() {
-        return TituloDistribucion;
+        return tituloDistribucion;
     }
 
     public void setTituloDistribucion(String tituloDistribucion) {
-        TituloDistribucion = tituloDistribucion;
+        this.tituloDistribucion = tituloDistribucion;
     }
 
     public String getTituloOriginal() {
-        return TituloOriginal;
+        return tituloOriginal;
     }
 
     public void setTituloOriginal(String tituloOriginal) {
-        TituloOriginal = tituloOriginal;
+        this.tituloOriginal = tituloOriginal;
     }
 
     public String getURL() {
@@ -111,11 +112,11 @@ public class Pelicula {
         this.subtitulos = subtitulos;
     }
 
-    public String getAñodeproduccion() {
+    public int getAñodeproduccion() {
         return añodeproduccion;
     }
 
-    public void setAñodeproduccion(String añodeproduccion) {
+    public void setAñodeproduccion(int añodeproduccion) {
         this.añodeproduccion = añodeproduccion;
     }
 
@@ -143,20 +144,27 @@ public class Pelicula {
         this.duracion = duracion;
     }
 
-    public int[] getDirectores() {
-        return Directores;
+    public String[] getDirectores() {
+        return directores;
     }
 
-    public void setDirectores(int[] directores) {
-        Directores = directores;
+    public void setDirectores(String[] directores) {
+        this.directores = directores;
     }
 
-    public int[] getActores() {
-        return Actores;
+    public String[] getActores() {
+        return actores;
     }
 
-    public void setActores(int[] actores) {
-        Actores = actores;
+    public void setActores(String[] actores) {
+        this.actores = actores;
     }
 
+    public String[] getReparto() {
+        return reparto;
+    }
+
+    public void setReparto(String[] reparto) {
+        this.reparto = reparto;
+    }
 }
