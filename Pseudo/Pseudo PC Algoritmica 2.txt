@@ -1,8 +1,8 @@
 Clase Pelicula
 	Atributos
 		id
-		tDistribucion
-        tOriginal
+		tituloDistribucion
+        tituloOriginal
         genero
         idioma
         subt
@@ -15,10 +15,150 @@ Clase Pelicula
         directores
         reparto
     Metodos
-        constructor()
-        constructor(nId, sTDistribucion, sTOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, nFechaEstreno, sResumen, lDirectores, lReparto)
-
+        constructor(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion, sResumen)
+        constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen)
+        obtenerId()
+        colocarId(nId)
 fClase
+
+Metodo Pelicula.constructor(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion, sResumen)
+    id -> nID
+    tituloDistribucion -> sTituloDistribucion
+    idioma -> sIdioma
+    subt -> bSubt
+    url -> sURL
+    duracion -> nDuracion
+    resumen -> sResumen
+fMetodo
+
+Metodo Pelicula.constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen, lDirectores, lReparto)
+    id -> nID
+    tituloDistribucion -> sTituloDistribucion
+    tituloOriginal -> sTituloOriginal
+    genero -> sGenero
+    idioma -> sIdioma
+    subt -> bSubt
+    añoProduccion -> sAñoProduccion
+    url -> sURL
+    duracion -> nDuracion
+    calificacion ->nCalificacion
+    fechaEstreno -> sFechaEstreno
+    resumen -> sResumen
+    directores -> nulo
+    reparto -> nulo
+fMetodo
+
+Metodo Pelicula.obtenerId() ->
+    retornar id
+fMetodo
+
+Metodo Pelicula.colocarId(nId)
+    id = nId
+fMetodo
+
+Metodo Pelicula.obtenerTituloDistribucion() ->
+    retornar tituloDistribucion
+fMetodo
+
+Metodo Pelicula.colocarTituloDistribucion(sTituloDistribucion)
+    tituloDistribucion = sTituloDistribucion
+fMetodo
+
+Metodo Pelicula.obtenerTituloOriginal()->
+    retornar tituloOriginal
+fMetodo
+
+Metodo Pelicula.colocarTituloOriginal(sTituloOriginal)
+    tituloOriginal = sTituloOriginal
+fMetodo
+
+Metodo Pelicula.obtenerGenero()->
+    retornar genero
+fMetodo
+
+Metodo Pelicula.colocarGenero(sGenero)
+    genero = nuevoGenero
+fMetodo
+
+Metodo Pelicula.obtenreIdioma()->
+    retornar idioma
+fMetodo
+
+Metodo Pelicula.colocarIdioma(sIdioma)
+    idioma = sIdioma
+fMetodo
+
+Metodo Pelicula.obtenerSubtitulo()->
+    retornar subt
+fMetodo
+
+Metodo Pelicula.colocarSubtitulo(bSubt)
+    subt = bSubt
+fMetodo
+
+Metodo Pelicula.obtenerAñoProduccion()->
+    retornar añoProduccion
+fMetodo
+
+Metodo Pelicula.colocarAñoProduccion(nAñoProduccion)
+    añoProduccion = nAñoProduccion
+fMetodo
+
+Metodo Pelicula.obtenerURL()->
+    retornar url
+fMetodo
+
+Metodo Pelicula.colocarURL(sURL)
+    url = sURL
+fMetodo
+
+Metodo Pelicula.obtenerDuracion()->
+    retornar duracion
+fMetodo
+
+Metodo Pelicula.colocarDuracion(nDuracion)
+    duracion = nDuracion
+fMetodo
+
+Metodo Pelicula.obtenerCalificacion()->
+    retornar calificacion
+fMetodo
+
+Metodo Pelicula.colocarCalificacion(nCalificacion)
+    calificacion = nCalificacion
+fMetodo
+
+Metodo Pelicula.obtenerFechaEstreno()->
+    retornar fechaEstreno
+fMetodo
+
+Metodo Pelicula.colocarFechaEstreno(sFechaEstreno)
+    fechaEstreno = sFechaEstreno
+fMetodo
+
+Metodo Pelicula.obtenerResumen()->
+    retornar resumen
+fMetodo
+
+Metodo Pelicula.colocarResumen(sResumen)
+    resumen = sResumen
+fMetodo
+
+Metodo Pelicula.obtenerReparto()->
+    retornar reparto
+fMetodo
+
+Metodo Pelicula.colocarReparto(oCineasta)
+    reparto.insertar(oCineasta)
+fMetodo
+
+Metodo Pelicula.obtenerDirector()->
+    retornar directores
+fMetodo
+
+Metodo Pelicula.colocarDirectores(oCineasta)
+    directores.insertar(oCineasta)
+fMetodo
 
 Clase Cineasta
     Atributos
@@ -70,10 +210,10 @@ Metodo Cineasta.colocarNacionalidad(sNacionalidad)
 fMetodo
 
 Metodo Cineasta.colocarPeliculasActuadas(oPelicula)
-    
+    peliculasActuadas.insertar(oPelicula)
 fMetodo
 
 Metodo Cineasta.colocarPeliculasDirigidas(oPelicula)
-
+    peliculasDirigidas.insertar(oPelicula)
 fMetodo
 
