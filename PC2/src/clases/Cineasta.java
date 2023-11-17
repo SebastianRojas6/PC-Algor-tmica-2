@@ -6,16 +6,14 @@ public class Cineasta {
     private String nacionalidad;
     private String[] peliculasDirigidas;
     private String[] peliculasActuadas;
-    private String[] reparto;
 
     public Cineasta(String nombre, String nacionalidad, String[] peliculasDirigidas, String[] peliculasActuadas,
             String[] reparto) {
 
         this.nombre = nombre;
         this.nacionalidad = nacionalidad;
-        this.peliculasDirigidas = peliculasDirigidas;
-        this.peliculasActuadas = peliculasActuadas;
-        this.reparto = reparto;
+        this.peliculasDirigidas = null;
+        this.peliculasActuadas = null;
     }
 
     public String getNombre() {
@@ -48,14 +46,6 @@ public class Cineasta {
 
     public void setPeliculasActuadas(String[] peliculasActuadas) {
         this.peliculasActuadas = peliculasActuadas;
-    }
-
-    public String[] getReparto() {
-        return reparto;
-    }
-
-    public void setReparto(String[] reparto) {
-        this.reparto = reparto;
     }
 
 }
