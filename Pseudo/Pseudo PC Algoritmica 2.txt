@@ -366,7 +366,7 @@ Clase Opinion
         colocarCalificacion(nCalificacion)
         obtenerComentario()->
         colocarComentario(sComentario)
-        mostrarComentario
+        mostrarOpinion()
 fClase
 
 Metodo Opinion.constructor(sNombre, nEdad, sFecha, nCalificacion, sComentario)
@@ -417,4 +417,5 @@ Metodo Opinion.colocarComentario(sComentario)
     comentario -> sComentario
 fMetodo
 
-Metodo Opinion.mostrar
+Metodo Opinion.mostrarOpinion()->
+    mensaje -> nombre + fecha + calificacion + comentario
