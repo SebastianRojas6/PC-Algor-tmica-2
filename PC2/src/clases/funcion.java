@@ -10,6 +10,7 @@ public class funcion {
     private String nButacas;
 
     public funcion(String dia, String horaInicio, String sala, String pelicula, String id, String nButacas) {
+
         this.dia = dia;
         this.horaInicio = horaInicio;
         this.sala = sala;

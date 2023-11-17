@@ -1,6 +1,6 @@
 package clases;
 
-public class Película {
+public class Pelicula {
 
     private String nombre;
     private String genero;
@@ -18,9 +18,10 @@ public class Película {
     private int[] Directores;
     private int[] Actores;
 
-    public Película(String nombre, String genero, String idioma, String tituloDistribucion, String tituloOriginal,
+    public Pelicula(String nombre, String genero, String idioma, String tituloDistribucion, String tituloOriginal,
             String uRL, String id, String calificacion, Boolean subtitulos, String añodeproduccion, String fEstreno,
             String resumen, int duracion, int[] directores, int[] actores) {
+
         this.nombre = nombre;
         this.genero = genero;
         this.idioma = idioma;
