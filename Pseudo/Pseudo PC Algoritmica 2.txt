@@ -238,3 +238,50 @@ fMetodo
 Metodo Cine.mostrarInformacion()->
     info -> sNombre + sDireccion + nTelefono
 fMetodo
+
+Clase Funcion
+    Atributos
+        fecha
+        horaImicio
+        sala
+        pelicula
+    Metodos
+        constructor(sFecha, sHoraInicio)
+        obtenerFecha()->
+        colocarFecha(sFecha)
+        obtenerHoraInicio()->
+        colocarHoraInicio(sHoraInicio)
+        obtenerSala()->
+        colocarSala(sNombre, nNumero, nButacas)
+        obtenerPelicula()->
+        colocarPelicula(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion,nCalificacion, sResumen)
+fClase
+
+Metodo Funcion.constructor(sFecha, sHoraInicio)
+    fecha -> sFecha
+    horaImicio -> sHoraInicio
+    sala-> nulo
+    pelicula -> nulo
+fMetodo
+
+Metodo Funcion.obtenerFecha()->
+    retornar fecha
+fMetodo
+Metodo Funcion.colocarFecha(sFecha)
+    fecha -> sFecha
+fMetodo
+Metodo Funcion.obtenerHoraInicio()->
+    retornar horaImicio
+fMetodo
+Metodo Funcion.colocarHoraInicio(sHoraInicio)
+    horaImicio -> sHoraInicio
+fMetodo
+Metodo Funcion.obtenerSala()->
+    retornar sala
+fMetodo
+Metodo Funcion.colocarSala(sNombre, nNumero, nButacas)
+    temp ejemplar-de sala
+    temp.colocarNombre(sNombre)
+    temp.colocarNumero(nNumero)
+    temp.colocarButacas(nButacas)
+fMetodo
