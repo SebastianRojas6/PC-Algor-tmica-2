@@ -1,3 +1,9 @@
+Autores{
+    Carlos Miguel Espinoza Peralta
+    Sebastian Alberto Rojas Rojas
+}
+
+
 Clase Pelicula
 	Atributos
 		id
