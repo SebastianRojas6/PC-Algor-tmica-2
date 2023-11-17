@@ -346,3 +346,75 @@ fMetodo
 Metodo Sala.colocarButacas(nButacas)
     butacas -> nButacas
 fMetodo
+
+Clase Opinion
+    Atributos
+        nombre
+        edad
+        fecha
+        calificacion
+        comentario
+    Metodos
+        constructor(sNombre, nEdad, sFecha, nCalificacion, sComentario)
+        obtenerNombre()->
+        colocarNombre(sNombre)
+        obtenerEdad()->
+        colocarEdad(nEdad)
+        obtenerFecha()->
+        colocarFecha(sFecha)
+        obtenerCalificacion()->
+        colocarCalificacion(nCalificacion)
+        obtenerComentario()->
+        colocarComentario(sComentario)
+        mostrarComentario
+fClase
+
+Metodo Opinion.constructor(sNombre, nEdad, sFecha, nCalificacion, sComentario)
+    nombre -> sNombre
+    edad -> nEdad
+    fecha -> sFecha
+    calificacion -> nCalificacion
+    comentario -> sComentario
+fMetodo
+
+Metodo Opinion.obtenerNombre()->
+    retornar nombre
+fMetodo
+
+Metodo Opinion.colocarNombre(sNombre)
+    nombre -> sNombre
+fMetodo
+
+Metodo Opinion.obtenerEdad()->
+    retornar edad
+fMetodo
+
+Metodo Opinion.colocarEdad(nEdad)
+    edad -> nEdad
+fMetodo
+
+Metodo Opinion.obtenerFecha()->
+    retornar fecha
+fMetodo
+
+Metodo Opinion.colocarFecha(sFecha)
+    fecha -> sFecha
+fMetodo
+
+Metodo Opinion.obtenerCalificacion()->
+    retornar calificacion
+fMetodo
+
+Metodo Opinion.colocarCalificacion(nCalificacion)
+    calificacion -> nCalificacion
+fMetodo
+
+Metodo Opinion.obtenerComentario()->
+    retornar comentario
+fMetodo
+
+Metodo Opinion.colocarComentario(sComentario)
+    comentario -> sComentario
+fMetodo
+
+Metodo Opinion.mostrar
