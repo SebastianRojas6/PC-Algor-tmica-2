@@ -1,0 +1,33 @@
+Clase Pelicula
+	Atributos
+		id
+		tDistribucion
+        tOriginal
+        genero
+        idioma
+        subt
+        añoProduccion
+        url
+        duracion
+        calificacion
+        fechaEstreno
+        resumen
+        directores
+        reparto
+    Metodos
+        constructor()
+        constructor(nId, sTDistribucion, sTOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, nFechaEstreno, sResumen, lDirectores, lReparto)
+
+fClase
+
+Clase Cineasta
+    Atributos
+        nombre
+        nacionalidad
+        peliculasDirigidas
+        peliculasActuadas
+    Metodos 
+        constructor()
+        constructor(sNombre, sNacionalidad, lPeliculasDirigidas, lPeliculasActuadas)
+        obtener
+
