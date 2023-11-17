@@ -4,14 +4,18 @@ public class Cineasta {
 
     private String nombre;
     private String nacionalidad;
-    private int[] peliculasDirigidas;
-    private int[] peliculasActuadas;
+    private String[] peliculasDirigidas;
+    private String[] peliculasActuadas;
+    private String[] reparto;
 
-    public Cineasta(String nombre, String nacionalidad, int[] peliculasDirigidas, int[] peliculasActuadas) {
+    public Cineasta(String nombre, String nacionalidad, String[] peliculasDirigidas, String[] peliculasActuadas,
+            String[] reparto) {
+
         this.nombre = nombre;
         this.nacionalidad = nacionalidad;
-        this.peliculasDirigidas = null;
-        this.peliculasActuadas = null;
+        this.peliculasDirigidas = peliculasDirigidas;
+        this.peliculasActuadas = peliculasActuadas;
+        this.reparto = reparto;
     }
 
     public String getNombre() {
@@ -30,19 +34,28 @@ public class Cineasta {
         this.nacionalidad = nacionalidad;
     }
 
-    public int[] getPeliculasDirigidas() {
+    public String[] getPeliculasDirigidas() {
         return peliculasDirigidas;
     }
 
-    public void setPeliculasDirigidas(int[] peliculasDirigidas) {
+    public void setPeliculasDirigidas(String[] peliculasDirigidas) {
         this.peliculasDirigidas = peliculasDirigidas;
     }
 
-    public int[] getPeliculasActuadas() {
+    public String[] getPeliculasActuadas() {
         return peliculasActuadas;
     }
 
-    public void setPeliculasActuadas(int[] peliculasActuadas) {
+    public void setPeliculasActuadas(String[] peliculasActuadas) {
         this.peliculasActuadas = peliculasActuadas;
     }
+
+    public String[] getReparto() {
+        return reparto;
+    }
+
+    public void setReparto(String[] reparto) {
+        this.reparto = reparto;
+    }
+
 }
