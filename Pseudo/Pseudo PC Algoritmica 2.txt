@@ -285,3 +285,19 @@ Metodo Funcion.colocarSala(sNombre, nNumero, nButacas)
     temp.colocarNumero(nNumero)
     temp.colocarButacas(nButacas)
 fMetodo
+
+Metodo Funcion.obtenerPelicula()->
+    retornar pelicula
+fMetodo
+
+Metodo Funcion.colocarPelicula(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion,nCalificacion, sResumen)
+    temp ejemplar-de pelicula
+    temp.colocarId(nId)
+    temp.colocarTituloDistribucion(sTituloDistribucion)
+    temp.colocarIdioma(sIdioma)
+    temp.colocarSubtitulo(bSubt)
+    temp.colocarURL(sURL)
+    temp.colocarDuracion(nDuracion)
+    temp.colocarCalificacion(nCalificacion)
+    temp.colocarResumen(sResumen)
+fMetodo
