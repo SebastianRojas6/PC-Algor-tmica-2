@@ -1,1 +1,3 @@
-"# PC-Algor-tmica-2" 
+# PC-Algor-tmica-2
+
+Compilar App.js
