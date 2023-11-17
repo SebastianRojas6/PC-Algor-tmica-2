@@ -21,16 +21,6 @@ Clase Pelicula
         colocarId(nId)
 fClase
 
-Metodo Pelicula.constructor(nId, sTituloDistribucion, sIdioma, bSubt, sURL, nDuracion, sResumen)
-    id -> nID
-    tituloDistribucion -> sTituloDistribucion
-    idioma -> sIdioma
-    subt -> bSubt
-    url -> sURL
-    duracion -> nDuracion
-    resumen -> sResumen
-fMetodo
-
 Metodo Pelicula.constructor(nId, sTituloDistribucion, sTituloOriginal, sGenero, sIdioma, bSubt, sAñoProduccion, sURL, nDuracion, nCalificacion, sFechaEstreno, sResumen, lDirectores, lReparto)
     id -> nID
     tituloDistribucion -> sTituloDistribucion
@@ -217,3 +207,34 @@ Metodo Cineasta.colocarPeliculasDirigidas(oPelicula)
     peliculasDirigidas.insertar(oPelicula)
 fMetodo
 
+
+Clase Cine
+    Atributos
+        nombre
+        direccion
+        telefono
+        cartelera
+    Metodos
+        constructor(sNombre, sDireccion, nTelefono)
+        mostrarInformacion()->
+        obtenerCartelera() ->
+        colocarCartelera(oCartelera)
+fClase
+
+Metodo Cine.constructor(sNombre, sDireccion, nTelefono)
+    nombre -> sNombre
+    direccion -> sDireccion
+    telefono -> nTelefono
+fMetodo
+
+Metodo Cine.obtenerCartelera() ->
+    retornar cartelera
+fMetodo
+
+Metodo Cine.colocarCartelera(oCartelera)
+    cartelera -> oCartelera
+fMetodo
+
+Metodo Cine.mostrarInformacion()->
+    info -> sNombre + sDireccion + nTelefono
+fMetodo
