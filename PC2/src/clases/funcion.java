@@ -67,4 +67,15 @@ public class funcion {
         this.nButacas = nButacas;
     }
 
+    @Override
+    public String toString() {
+        return "Funcion{" +
+                "dia='" + dia + '\'' +
+                ", horaInicio='" + horaInicio + '\'' +
+                ", sala='" + sala + '\'' +
+                ", pelicula='" + pelicula + '\'' +
+                ", id='" + id + '\'' +
+                ", nButacas='" + nButacas + '\'' +
+                '}';
+    }
 }

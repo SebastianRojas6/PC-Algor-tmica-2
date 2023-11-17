@@ -1,5 +1,7 @@
 package clases;
 
+import java.util.Arrays;
+
 public class Cineasta {
 
     private String nombre;
@@ -48,4 +50,13 @@ public class Cineasta {
         this.peliculasActuadas = peliculasActuadas;
     }
 
+    @Override
+    public String toString() {
+        return "Cineasta{" +
+                "nombre='" + nombre + '\'' +
+                ", nacionalidad='" + nacionalidad + '\'' +
+                ", peliculasDirigidas=" + Arrays.toString(peliculasDirigidas) +
+                ", peliculasActuadas=" + Arrays.toString(peliculasActuadas) +
+                '}';
+    }
 }
